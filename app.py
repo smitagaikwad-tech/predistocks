@@ -34,7 +34,7 @@ show_confidence = st.sidebar.checkbox("Show Forecast Confidence", value=False)
 
 # ✅ FIXED HOME BUTTON (HTML LINK)
 st.sidebar.markdown("""
-    <a href="https://predistocks.netlify.app/" target="_blank">
+    <a href="https://predistocks01.netlify.app/" target="_blank">
         <button style="width:100%; padding:10px; background-color:#4CAF50; color:white; border:none; border-radius:5px; cursor:pointer;">
             Home
         </button>
@@ -173,3 +173,4 @@ if stock_symbol:
         st.error(f"Error: {str(e)}")
 else:
     st.warning("Please enter a company name or stock symbol.")
+
